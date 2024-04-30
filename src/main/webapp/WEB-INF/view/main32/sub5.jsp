@@ -5,18 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-<c:if test="${not empty message}">
-    <div style="padding: 20px; background-color: skyblue">${message}</div>
-</c:if>
+<div style="padding: 10px;">${message}</div>
 
 <h3>직원 입력</h3>
-<form action="" method="post">
+<form method="post">
     <div>
-        last name
+        last Name
         <input type="text" name="lastName">
     </div>
     <div>
-        first name
+        first Name
         <input type="text" name="firstName">
     </div>
     <div>
@@ -35,5 +33,6 @@
         <input type="submit" value="등록">
     </div>
 </form>
+
 </body>
 </html>
